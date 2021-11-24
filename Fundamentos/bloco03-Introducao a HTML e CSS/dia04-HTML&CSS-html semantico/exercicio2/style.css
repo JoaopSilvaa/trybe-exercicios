@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{ 
+    width: 80%;       
+}
+
+nav{
+    text-align: center;
+}
+
+nav h1{
+    display: inline;
+    padding-right: 60px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    text-align: right;
+    padding-right: 30px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
