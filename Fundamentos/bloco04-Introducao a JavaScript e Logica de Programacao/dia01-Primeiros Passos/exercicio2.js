@@ -28,3 +28,17 @@ if(valor>0){
     console.log("zero");
 } */
 
+/* Angulos de um Triangulo 
+const a = 90;
+const b = 45;
+const c = 45;
+
+let somaTri = a+b+c;
+
+if(somaTri == 180){
+    console.log("true");
+}else if(a < 0 || b <0 || c<0){
+    console.log("ERROR");
+}else if(somaTri!== 180){
+    console.log("false");
+} */
