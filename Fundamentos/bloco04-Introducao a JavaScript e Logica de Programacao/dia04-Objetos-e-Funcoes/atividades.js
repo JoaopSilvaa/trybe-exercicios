@@ -40,14 +40,29 @@ for(let index in car){
 
 //Funções
 function adicao(a,b){
-    let soma = a+b;
-    return soma;
+    return a+b;
 }
 
 function sub(a,b){
-    let menos = a-b;
-    return menos;
+    return a-b;
+}
+
+function multi(a,b){
+    return a*b;
+}
+
+function div(a,b){
+    return a/b;
+}
+
+function mod(a,b){
+    return a%b;
 }
 
 console.log(adicao(3,4));
 console.log(sub(8,4));
+console.log(multi(3,2));
+console.log(div(12,4));
+console.log(mod(6,2));
+
+
