@@ -22,29 +22,59 @@
 
     <script>
         let teste = document.querySelector("#elementoOndeVoceEsta");
-        console.log(teste);
+        // console.log(teste);
         
         let paiDoTeste =  teste.parentElement;
-        console.log(paiDoTeste);
+        // console.log(paiDoTeste);
         paiDoTeste.style.backgroundColor = "#dfdfdf";
         
         let firtsFilhoDoTeste = teste.firstElementChild;
         firtsFilhoDoTeste.innerHTML = "Primeiro Filho do Teste";
         
         let primeiroFilhodoPai = paiDoTeste .firstElementChild;
-        console.log(primeiroFilhodoPai);
+        // console.log(primeiroFilhodoPai);
 
         let antesDoTeste = teste.previousElementSibling;
-        console.log(antesDoTeste);
+        // console.log(antesDoTeste);
 
         let atencao = teste.nextSibling;
-        console.log(atencao);
+        // console.log(atencao);
         
         let terceiroFilho = teste.nextSibling.nextElementSibling;
-        console.log(terceiroFilho);
+        // console.log(terceiroFilho);
 
         let terceiroPeloUltimo = paiDoTeste.lastElementChild.previousElementSibling;
-        console.log(terceiroPeloUltimo);        
+        // console.log(terceiroPeloUltimo); 
+        
+        let irmaoDoTeste = document.createElement("section");
+        paiDoTeste.appendChild(irmaoDoTeste);
+
+
+        let outroFilhoDoTeste = document.createElement("section");
+        teste.appendChild(outroFilhoDoTeste);    
+
+        let filhoDoPrimeiroFilho = document.createElement("section");
+        firtsFilhoDoTeste.appendChild(filhoDoPrimeiroFilho);
+        
+        let acesso = filhoDoPrimeiroFilho.parentElement.parentElement.nextSibling.nextElementSibling;
+
+        // console.log(acesso);
+
+        let pai = document.getElementById('pai');
+
+    for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+        let currentChildren = pai.childNodes[index];
+        if (currentChildren.id !== 'elementoOndeVoceEsta') {
+            currentChildren.remove();
+        }
+    }
+
+        let segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+        segundoEUltimoFilhoDoFilho.remove();
+
+        console.log(pai);
+
+
     </script>
 </body>
 </html>
