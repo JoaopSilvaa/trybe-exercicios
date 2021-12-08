@@ -35,6 +35,10 @@ function createDaysOfTheWeek() {
         }
 
         ul.appendChild(listDays);
+
+        listDays.addEventListener('mouseover', zoomIn);
+        listDays.addEventListener('mouseout', zoomOut);
+        listDays.addEventListener('click', putColor)
     
     }  
   }
@@ -58,10 +62,10 @@ createButtonHolidays("Feriados");
   function changeBackgroundHolidays(){
       let listDays = document.querySelectorAll('.holiday');
       for(let i=0;i<listDays.length;i+=1){
-          if(listDays[i].style.backgroundColor === "blue"){
+          if(listDays[i].style.backgroundColor === "white"){
             listDays[i].style.backgroundColor = "rgb(238,238,238)"; 
           }else{
-            listDays[i].style.backgroundColor = "blue";
+            listDays[i].style.backgroundColor = "white";
           }
       }
   }
@@ -93,11 +97,87 @@ createButtonHolidays("Feriados");
 createButtonFridays("Sexta-Feira");
 
     function zoomIn(event){
-        let listDays = document.querySelectorAll('.day');
-        listDays.addEventListener('mouseover', zoomIn);
+       let day = event.target;
+       day.style.fontSize = "40px";
         
     }
 
     function zoomOut(event){
-
+        let day = event.target;
+        day.style.fontSize = "20px";
     }
+
+    function task(param){
+        let myTasks = document.querySelector('.my-tasks');
+        let task = document.createElement('span');
+
+        task.innerHTML = param;
+        myTasks.appendChild(task);
+    }
+
+    function legend(cor){
+        let myTasks = document.querySelector('.my-tasks');
+
+        let div = document.createElement('div');
+        div.style.backgroundColor = cor;
+        div.className = 'task';
+
+        myTasks.appendChild(div);
+    
+        div.addEventListener('click', changeTask);
+    }
+    
+    function changeTask(){
+        let div = document.querySelectorAll('.task');
+
+        for(let i = 0 ; i < div.length; i+=1){
+            if(div[i].className == 'task selected'){
+                div[i].className = 'task';
+            }else{
+                div[i].className = 'task selected';
+            }
+        }
+    }
+    
+    task("cozinhar");
+    legend('green');
+    
+    function putColor(event){
+        let div = document.querySelectorAll('.task');
+        let day = event.target;
+        for(let i = 0 ; i < div.length; i+=1){
+            if(day.style.color == div[i].style.backgroundColor){
+                day.style.color = "rgb(119,119,119)";
+            }else if(div[i].className == 'task selected'){
+                day.style.color = div[i].style.backgroundColor;
+            }
+        }
+    }
+
+    function addCompromisso(){
+        let ulContainer = document.querySelector('.task-list');
+        let input = document.querySelector('#task-input');
+        let btnAdd = document.querySelector('#btn-add');  
+    
+        btnAdd.addEventListener('click', function(){
+            if(input.value.length > 0){
+                let li = document.createElement('li');
+                li.innerText = input.value;
+                ulContainer.appendChild(li);
+                input.value = '';
+            }else{
+                alert("ERRO!!! DIGITE ALGUMA COISA")
+            }
+        })
+
+        input.addEventListener('keyup', function(event){
+            if(event.key === 'Enter' && input.value.length>0){
+                let li = document.createElement('li');
+                li.innerText = input.value;
+                ulContainer.appendChild(li);
+                input.value = '';
+            }
+        })
+    }
+
+    addCompromisso();
