@@ -1,3 +1,7 @@
+window.onload = function(){
+    localStorage.getItem('background');
+}
+
 let background = document.querySelector("#background");
 let color = document.querySelector("#color");
 let size = document.querySelector("#size");
@@ -29,12 +33,13 @@ btn.addEventListener('click', function(){
     aplicaColor();
     aplicaSize();
     aplicaSpace();
-    aplicaStyle();
+    /* aplicaStyle(); */
     
 })
 
 function aplicaBackground(){
     txt.style.backgroundColor = background.value;
+    localStorage.setItem('background', background.value);
 }
 
 function aplicaColor(){
