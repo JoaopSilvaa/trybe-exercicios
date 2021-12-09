@@ -1,7 +1,3 @@
-window.onload = function(){
-    localStorage.getItem('background');
-}
-
 let background = document.querySelector("#background");
 let color = document.querySelector("#color");
 let size = document.querySelector("#size");
@@ -44,16 +40,37 @@ function aplicaBackground(){
 
 function aplicaColor(){
     txt.style.color = color.value;
+    localStorage.setItem('color', color.value);
 }
 
 function aplicaSize(){
     txt.style.fontSize = size.value + 'px';
+    localStorage.setItem('size', (size.value));
 }
 
 function aplicaSpace(){
     txt.style.lineHeight = space.value;
+    localStorage.setItem('space', space.value);
 }
 
 /* function aplicaStyle(){
     txt.style.fontFamily = style.value;
 } */
+
+function carregaPagina(){
+    if(localStorage.getItem('background') != ''){
+        txt.style.backgroundColor = localStorage.getItem('background');
+    }
+    if(localStorage.getItem('color', color.value) != ''){
+        txt.style.color = localStorage.getItem('color');
+    }
+    if( localStorage.getItem('size', size.value != '')){
+        txt.style.fontSize = localStorage.getItem('size') + 'px';
+    }
+    if(localStorage.getItem('space', space.value) != ''){
+        txt.style.lineHeight = localStorage.getItem('space');
+    }
+
+}
+
+window.onload = carregaPagina;
