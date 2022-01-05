@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet type=text/css href='style.css'> 
+    <title>Document</title>
+</head>
+<body>
+  <form>
+      <fieldset>
+        <Legend>Dados Pessoais</Legend>
+        <label for='nome-completo'> Digite Seu nome completo
+        <input type='text' name='nome' id='nome-completo' maxlength="40" required placeholder="Nome Completo">
+        </label> 
+        <br>
+        <label for='email-user'> Digite seu email
+        <input type='text' name='email' id='email-user' maxlength="50" required placeholder="Seu email">
+        </label> 
+        <br>
+        <label for='cpf-user'> Digite seu CPF
+        <input type="text" name='cpf' id='cpf-user' maxlength="11" required placeholder="Seu CPF">
+        </label>
+        <br>
+        <label for='endereco-user'> Digite seu Endereço
+        <input type="text" name='endereco' id='endereco-user' maxlength="200" required placeholder="Seu Endereço">
+        </label>
+        <br>
+        <label for='cidade-user'> Digite sua Cidade
+        <input type="text" name='cidade' id='cidade-user' maxlength="28" required placeholder="Sua Cidade">
+        </label>
+        <br>
+        <label for='estadoUser'> Selecione seu Estado
+        <select name='estado' id='estadoUser' required>
+        </select>
+        </label>
+        <br>
+        <p>Tipo de Residência</p>
+        <label for='mora-user1'> 
+        <input type="radio" name='moradia' id='mora-user1' required>Casa
+        </label>
+        <label for='mora-user2'>
+        <input type="radio" name='moradia' id='mora-user2' required>Apartamento
+        </label>
+        <br>
+      </fieldset>
+      <fieldset>
+      <legend>Dados do seu último emprego</legend>
+      <label for='resumo-trab'> Digite um resumo do seu último emprego</label> <br>
+          <textarea name='resumo' id='resumo-trab' cols='30' rows='10' required maxlength="1000">
+          </textarea>
+      <br>
+      <label for='ultimo-emprego'> Digite o cargo que você trabalhava
+        <input type="text" name='cargo' id='ultimo-emprego' maxlength="40" required placeholder="Seu último cargo">
+        </label>
+        <br>
+        <label for='atribuicoes'> O que você fazia no seu último cargo?
+            <input type="text" name='afazeres' id='atribuicoes' maxlength="500" required placeholder="Suas atribuições">
+            </label>
+            <br>
+            <label for='dataInicio'> Escolha a data de inicio do seu trabalho
+                <input type="date" name='data' id='dataInicio' required>
+                </label>
+                <br>
+      </fieldset>
+      <button type='submit' id='enviar'>Enviar</button>
+      <button type="reset" id='limpar'>Limpar</button>
+  </form>
+  <script src='script.js'></script>
+</body>
+</html>
