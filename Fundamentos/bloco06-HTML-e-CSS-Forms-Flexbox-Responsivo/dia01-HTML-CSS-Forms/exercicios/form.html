@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet type=text/css href='style.css'> 
     <title>Document</title>
 </head>
 <body>
   <form>
       <fieldset>
-        <h1>Dados Pessoais</h1>
+        <Legend>Dados Pessoais</Legend>
         <label for='nome-completo'> Digite Seu nome completo
         <input type='text' name='nome' id='nome-completo' maxlength="40" required placeholder="Nome Completo">
         </label> 
@@ -45,7 +46,7 @@
         <br>
       </fieldset>
       <fieldset>
-      <h1>Dados do seu último emprego</h1>
+      <legend>Dados do seu último emprego</legend>
       <label for='resumo-trab'> Digite um resumo do seu último emprego</label> <br>
           <textarea name='resumo' id='resumo-trab' cols='30' rows='10' required maxlength="1000">
           </textarea>
@@ -64,7 +65,8 @@
                 <br>
       </fieldset>
       <button type='submit' id='enviar'>Enviar</button>
-      <button id='limpar'>Limpar</button>
+      <button type="reset" id='limpar'>Limpar</button>
   </form>
+  <script src='script.js'></script>
 </body>
 </html>
