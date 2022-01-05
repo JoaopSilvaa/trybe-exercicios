@@ -8,10 +8,12 @@
     <script src='jquery-3.6.0.min.js'></script>
     <script src='bootstrap-5.1.3-dist/js/bootstrap.min.js'></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script> 
+    <link rel="stylesheet" href="DatePickerX-master/dist/css/DatePickerX.min.css">
+    <script src="DatePickerX-master/dist/js/DatePickerX.min.js"></script>
     <title>Formulário</title>
 </head>
 <body>
-  <form action="" method="get">
+  <form action="" id='form' method="get">
       <fieldset>
         <Legend>Dados Pessoais</Legend>
         <label for='name'> Digite Seu nome completo
@@ -19,7 +21,7 @@
         </label> 
         <br>
         <label for='email-user'> Digite seu email
-        <input type='text' name='email' id='email-user' maxlength="50" required placeholder="Seu email">
+        <input type='text' name='email' id='email' maxlength="50" placeholder="Seu email">
         </label> 
         <br>
         <label for='cpf-user'> Digite seu CPF
@@ -62,8 +64,8 @@
             <input type="text" name='afazeres' id='atribuicoes' maxlength="500" required placeholder="Suas atribuições">
             </label>
             <br>
-            <label for='dataInicio'> Escolha a data de inicio do seu trabalho
-                <input type="date" name='data' id='dataInicio' required>
+            <label for='date'> Escolha a data de inicio do seu trabalho
+                <input type="text" name='data' id='myInputId'>
                 </label>
                 <br>
       </fieldset>
@@ -74,6 +76,27 @@
   <script src='script.js'></script>
   <script>
     const validate = new window.JustValidate('#form');
+    validation
+  .addField('#name', [
+    {
+      rule: 'minLength',
+      value: 3,
+    },
+    {
+      rule: 'maxLength',
+      value: 30,
+    },
+  ])
+  .addField('#email', [
+    {
+      rule: 'required',
+      errorMessage: 'Email is required',
+    },
+    {
+      rule: 'email',
+      errorMessage: 'Email is invalid!',
+    },
+  ]);
   </script>
 </body>
 </html>

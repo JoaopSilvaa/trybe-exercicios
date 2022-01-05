@@ -5,7 +5,7 @@ const btn = document.getElementById('enviar');
 const btn2 = document.getElementById('limpar');
 const result = document.getElementById('result');
 const nome = document.getElementById('nome-completo');
-
+const date = document.getElementById('myInputId');
 
 for(let i = 0; i < estados.length; i ++){
     let opcoes = document.createElement('option');
@@ -27,6 +27,9 @@ function apaga(){
   result.remove();
 }
 
+date.DatePickerX.init({
+    format : 'dd/mm/yyyy',
+});
 
 btn.addEventListener('click', createDiv);
 btn2.addEventListener('click', apaga);
