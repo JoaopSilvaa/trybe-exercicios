@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src='jquery-3.6.0.min.js'></script>
-    <script src='bootstrap-5.1.3-dist/js/bootstrap.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script> 
     <link rel="stylesheet" href="DatePickerX-master/dist/css/DatePickerX.min.css">
     <script src="DatePickerX-master/dist/js/DatePickerX.min.js"></script>
@@ -15,66 +15,68 @@
 <body>
   <form action="" id='form' method="get">
       <div class="container">
-        <Legend>Dados Pessoais</Legend>
-        <label for='name'> Digite Seu nome completo
-        <input type='text' name='name' id='name' maxlength="40" placeholder="Nome Completo">
+        <h2>Dados Pessoais</h2>
+        <label for='name' class='form-label'> Digite Seu nome completo
+        <input type='text' name='name' id='name' maxlength="40" placeholder="Nome Completo" class='form-control'>
         </label> 
         <br>
-        <label for='email-user'> Digite seu email
-        <input type='text' name='email' id='email' maxlength="50" placeholder="Seu email">
+        <label for='email-user' class='form-label'> Digite seu email
+        <input type='text' name='email' id='email' maxlength="50" placeholder="Seu email" class='form-control'>
         </label> 
         <br>
-        <label for='cpf-user'> Digite seu CPF
-        <input type="text" name='cpf' id='cpf-user' maxlength="11" required placeholder="Seu CPF">
+        <label for='cpf-user' class='form-label'> Digite seu CPF
+        <input type="text" name='cpf' id='cpf-user' maxlength="11" required placeholder="Seu CPF" class='form-control'>
         </label>
         <br>
-        <label for='endereco-user'> Digite seu Endereço
-        <input type="text" name='endereco' id='endereco-user' maxlength="200" required placeholder="Seu Endereço">
+        <label for='endereco-user' class='form-label'> Digite seu Endereço
+        <input type="text" name='endereco' id='endereco-user' maxlength="200" required placeholder="Seu Endereço" class='form-control'>
         </label>
         <br>
-        <label for='cidade-user'> Digite sua Cidade
-        <input type="text" name='cidade' id='cidade-user' maxlength="28" required placeholder="Sua Cidade">
+        <label for='cidade-user' class='form-label'> Digite sua Cidade
+        <input type="text" name='cidade' id='cidade-user' maxlength="28" required placeholder="Sua Cidade" class='form-control'>
         </label>
         <br>
-        <label for='estadoUser'> Selecione seu Estado
-        <select name='estado' id='estadoUser' required>
+        <label for='estadoUser' class='form-label'> Selecione seu Estado
+        <select name='estado' id='estadoUser' required class='form-select'>
         </select>
         </label>
         <br>
         <p>Tipo de Residência</p>
-        <label for='mora-user1'> 
-        <input type="radio" name='moradia' id='mora-user1' required>Casa
+        <label for='mora-user1' class='form-label'> 
+        <input type="radio" name='moradia' id='mora-user1' required class='form-check-input'>Casa
         </label>
-        <label for='mora-user2'>
-        <input type="radio" name='moradia' id='mora-user2' required>Apartamento
+        <label for='mora-user2' class='form-label'>
+        <input type="radio" name='moradia' id='mora-user2' required class='form-check-input'>Apartamento
         </label>
         <br>
       </div>
-      <fieldset>
-      <legend>Dados do seu último emprego</legend>
-      <label for='resumo-trab'> Digite um resumo do seu último emprego</label> <br>
-          <textarea name='resumo' id='resumo-trab' cols='30' rows='10' required maxlength="1000">
+      <div class='container'>
+      <h2>Dados do seu último emprego</h2>
+      <label for='resumo-trab' class='form-label'> Digite um resumo do seu último emprego</label> <br>
+          <textarea name='resumo' id='resumo-trab' required maxlength="1000"  class='form-control'>
           </textarea>
       <br>
-      <label for='ultimo-emprego'> Digite o cargo que você trabalhava
-        <input type="text" name='cargo' id='ultimo-emprego' maxlength="40" required placeholder="Seu último cargo">
+      <label for='ultimo-emprego' class='form-label'> Digite o cargo que você trabalhava
+        <input type="text" name='cargo' id='ultimo-emprego' maxlength="40" required placeholder="Seu último cargo" class='form-control'>
         </label>
         <br>
-        <label for='atribuicoes'> O que você fazia no seu último cargo?
-            <input type="text" name='afazeres' id='atribuicoes' maxlength="500" required placeholder="Suas atribuições">
+        <label for='atribuicoes' class='form-label'> O que você fazia no seu último cargo?
+            <input type="text" name='afazeres' id='atribuicoes' maxlength="500" required placeholder="Suas atribuições" class='form-control'>
             </label>
             <br>
-            <label for='date'> Escolha a data de inicio do seu trabalho
-                <input type="text" name='data' id='myInputId'>
+            <label for='date' class='form-label'> Escolha a data de inicio do seu trabalho
+                <input type="date" name='data' id='myInputId' class='form-control'>
                 </label>
                 <br>
-      </fieldset>
-      <button type='submit' id='enviar'>Enviar</button>
-      <button type="reset" id='limpar'>Limpar</button>
-  </form>
+      </div>
+      <div class='container'>
+        <button type='submit' id='enviar' class='btn btn-outline-success'>Enviar</button>
+        <button type="reset" id='limpar' class='btn btn-outline-danger'>Limpar</button>
+      </div>  
+    </form>
   <div id='result'></div>
   <script src='script.js'></script>
-  <script>
+  <!-- <script>
     const validate = new window.JustValidate('#form');
     validation
   .addField('#name', [
@@ -97,6 +99,6 @@
       errorMessage: 'Email is invalid!',
     },
   ]);
-  </script>
+  </script> -->
 </body>
 </html>
