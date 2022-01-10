@@ -5,3 +5,96 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+@media screen and (max-width: 690px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  header p{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  ul{
+    margin-left: -20px;
+  }
+
+  .main-content h1{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .main-content p{
+    text-align: justify;
+  }
+
+  footer{
+    font-size: 0.8rem;
+  }
+
+  footer p{
+    text-align: justify;
+  }
+  .asides{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 690px) and (max-width: 1024px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  header p{
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  ul{
+    margin-left: -20px;
+  }
+
+  .main-content h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .main-content p{
+    text-align: justify;
+  }
+
+  footer{
+    font-size: 0.8rem;
+  }
+
+  footer p{
+    text-align: justify;
+  }
+
+  .asides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
