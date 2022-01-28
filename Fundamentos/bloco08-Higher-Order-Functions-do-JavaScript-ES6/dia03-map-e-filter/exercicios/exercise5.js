@@ -65,6 +65,7 @@ const books = [
     const listFilter = books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia')
     const names = listFilter.map((book) => book.author.name);
     console.log(names.sort());
+    console.log(books.genre);
   };
 
   fantasyOrScienceFictionAuthors();
