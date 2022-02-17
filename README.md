@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web 
 
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
 
@@ -35,7 +35,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-019-a-project-playground-functions/pull/13)_
 
-##### Bloco 5: Introdução - JavaScript - Projetos 
+##### Bloco 5: Introdução - JavaScript - Projetos :white_check_mark:
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
@@ -47,7 +47,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [x] 5-7: _[Projeto - Carta Misteriosa]()_
 
-##### Bloco 6: HTML & CSS avançado
+##### Bloco 6: HTML & CSS avançado :white_check_mark:
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -56,14 +56,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Página inicial do Facebook]()_
 
-##### Bloco 7: JavaScript ES6 & Testes Unitários
+##### Bloco 7: JavaScript ES6 & Testes Unitários :white_check_mark:
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: JavaScript ES6 :white_check_mark:
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
@@ -71,20 +71,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] 8-5: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: Assincronicidade & Callbacks :white_check_mark:
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
 - [x] 9-3: _[Projeto - Carrinho de Compras]()_
 
-##### Bloco 10: Jest
+##### Bloco 10: Jest :white_check_mark:
 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
-## Desenvolvimento Front-end 
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React :hourglass_flowing_sand:
 
