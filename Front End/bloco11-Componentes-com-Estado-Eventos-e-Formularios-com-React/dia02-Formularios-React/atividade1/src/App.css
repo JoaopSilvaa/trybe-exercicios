@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.formzin {
+  display: flex;
+  flex-direction: column;
+}

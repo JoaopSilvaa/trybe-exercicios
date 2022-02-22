@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form label input, select{
+  margin-left: 5px;
+}
+
+.log label{
+  display: inline;
+  margin-left: 10px;
+}
