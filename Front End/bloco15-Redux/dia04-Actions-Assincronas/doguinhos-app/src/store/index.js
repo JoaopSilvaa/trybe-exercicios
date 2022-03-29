@@ -1,10 +1,12 @@
 // src/store/index.js
-import { createStore } from 'redux';
-
+import { applyMiddleware, createStore } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import thunk from 'redux-thunk';
+// Actions.Types
 const GET_IMAGE = 'GET_IMAGE';
 const REQUEST_IMAGE = 'REQUEST_IMAGE';
 const FAILED_REQUEST = 'FAILED_REQUEST';
-
+//Actions
 function getImage(json) {
   return { type: GET_IMAGE, payload: json.message };
 }
@@ -26,13 +28,13 @@ export function fetchDog() {
       .catch(error => dispatch(failedRequest(error)))
   };
 }
-
+//Estado inicial
 const initialState = {
   isFetching: false,
   imagePath: '',
   error: '',
 };
-
+//Reducer
 function reducer(state = initialState, action) {
   switch (action.type) {
     case REQUEST_IMAGE:
@@ -45,7 +47,7 @@ function reducer(state = initialState, action) {
       return state;
   }
 }
-
-const store = createStore(reducer);
+//Store
+const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
 export default store;
