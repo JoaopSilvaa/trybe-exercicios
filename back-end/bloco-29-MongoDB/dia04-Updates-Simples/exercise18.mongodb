@@ -1,0 +1,17 @@
+use('class');
+db.xmen.updateMany(
+    {  
+       class: { $exists: false } 
+    },
+    { 
+        $currentDate: {
+            lastUpdate: { $type: 'timestamp' },
+        },
+        $inc: {
+            power: -100
+        }
+    }
+);
+
+use('class');
+db.xmen.find();

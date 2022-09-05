@@ -1,0 +1,10 @@
+use('class');
+db.movies.updateOne({ title: 'Home Alone' },
+{ $set: {
+    imdbRating: 5.5,
+    budget: 15
+  }
+});
+
+use('class');
+db.movies.find();
