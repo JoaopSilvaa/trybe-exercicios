@@ -1,0 +1,13 @@
+use('cinema');
+db.movies.updateOne(
+    { title: 'Batman' },
+    {
+      $pull: {
+        category: 'action'
+      }
+    }
+);
+
+
+use('cinema');
+db.movies.find();

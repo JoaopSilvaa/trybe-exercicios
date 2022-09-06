@@ -1,0 +1,36 @@
+use('cinema');
+db.movies.updateOne(
+    { 
+      title: 'Batman',
+      'cast.character': 'Batman',
+    },
+    {
+      $push: { 'cast.$.actor': 'Christian Bale' }
+    }
+);
+
+use('cinema');
+db.movies.updateOne(
+    { 
+      title: 'Batman',
+      'cast.character': 'Alfred',
+    },
+    {
+      $push: { 'cast.$.actor': 'Michael Caine' }
+    }
+);
+
+use('cinema');
+db.movies.updateOne(
+    { 
+      title: 'Batman',
+      'cast.character': 'Coringa',
+    },
+    {
+      $push: { 'cast.$.actor': 'Heath Ledger' }
+    }
+);
+
+
+use('cinema');
+db.movies.find();
