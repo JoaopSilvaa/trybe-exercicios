@@ -1,6 +1,0 @@
-use('cinema');
-db.movies.find(
-    {
-      description: { $regex: /humanity.$/ }
-    }
-);

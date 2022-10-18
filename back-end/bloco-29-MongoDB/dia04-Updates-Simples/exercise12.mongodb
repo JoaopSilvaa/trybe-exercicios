@@ -1,8 +1,0 @@
-use('class');
-db.movies.updateMany(
-    {},
-    { $unset: { budget: '', estimatedBudget: '' }}
-);
-
-use('class');
-db.movies.find();
