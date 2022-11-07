@@ -1,0 +1,331 @@
+1667843084639	geckodriver	INFO	Listening on 127.0.0.1:50461
+1667843084644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47143" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepHXupI"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667843086156	Marionette	INFO	Marionette enabled
+1667843086163	Marionette	INFO	Listening on port 45249
+Read port: 45249
+WebDriver BiDi listening on ws://127.0.0.1:47143
+1667843086402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepHXupI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47143/devtools/browser/affa6802-925d-46d2-8640-1b643932fa12
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 183: TypeError: this._element is null
+1667843195397	Marionette	INFO	Stopped listening on port 45249
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667843267469	geckodriver	INFO	Listening on 127.0.0.1:50955
+1667843267473	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejWimIq"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667843268573	Marionette	INFO	Marionette enabled
+1667843268577	Marionette	INFO	Listening on port 35393
+WebDriver BiDi listening on ws://127.0.0.1:36487
+Read port: 35393
+1667843268854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejWimIq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36487/devtools/browser/f7b44f7e-049e-4cf9-aa84-4362216ccdfc
+1667843279140	Marionette	INFO	Stopped listening on port 35393
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667843662653	geckodriver	INFO	Listening on 127.0.0.1:45241
+1667843662659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBCg4TC"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667843663672	Marionette	INFO	Marionette enabled
+1667843663677	Marionette	INFO	Listening on port 34295
+Read port: 34295
+WebDriver BiDi listening on ws://127.0.0.1:45815
+1667843663821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBCg4TC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45815/devtools/browser/53c88cd1-9823-4d39-94b5-44d37e8a469e
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1667843914999	Marionette	INFO	Stopped listening on port 34295
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667843917345	geckodriver	INFO	Listening on 127.0.0.1:53623
+1667843917350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2O7HXI"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667843918346	Marionette	INFO	Marionette enabled
+1667843918350	Marionette	INFO	Listening on port 40703
+Read port: 40703
+WebDriver BiDi listening on ws://127.0.0.1:47267
+1667843918471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2O7HXI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47267/devtools/browser/c684d7a2-fd3d-40d4-9b26-21de62a6662f
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1667844155066	Marionette	INFO	Stopped listening on port 40703
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667844157248	geckodriver	INFO	Listening on 127.0.0.1:60243
+1667844157252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUmMoC5"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667844158308	Marionette	INFO	Marionette enabled
+1667844158312	Marionette	INFO	Listening on port 40251
+Read port: 40251
+WebDriver BiDi listening on ws://127.0.0.1:45533
+1667844158448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUmMoC5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45533/devtools/browser/33487ef4-bfc9-4770-b8ae-115f68fc1be6
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://books.toscrape.com/static/oscar/js/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1667844489984	Marionette	INFO	Stopped listening on port 40251
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667846078190	geckodriver	INFO	Listening on 127.0.0.1:55623
+1667846078195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebkBQC7"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667846079254	Marionette	INFO	Marionette enabled
+1667846079258	Marionette	INFO	Listening on port 37155
+Read port: 37155
+WebDriver BiDi listening on ws://127.0.0.1:53755
+1667846079385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebkBQC7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53755/devtools/browser/e57c33df-3e71-4f70-89bf-baae1a0e0a9b
+1667846098229	Marionette	INFO	Stopped listening on port 37155
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667846360223	geckodriver	INFO	Listening on 127.0.0.1:54741
+1667846360227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48333" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLvp0XJ"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667846361279	Marionette	INFO	Marionette enabled
+1667846361283	Marionette	INFO	Listening on port 45623
+Read port: 45623
+WebDriver BiDi listening on ws://127.0.0.1:48333
+1667846361411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLvp0XJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48333/devtools/browser/42ae4f95-f6b6-4f85-8532-59495c05032d
+1667846378625	Marionette	INFO	Stopped listening on port 45623
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667846516292	geckodriver	INFO	Listening on 127.0.0.1:53219
+1667846516296	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOaJDCO"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667846517394	Marionette	INFO	Marionette enabled
+1667846517401	Marionette	INFO	Listening on port 35147
+WebDriver BiDi listening on ws://127.0.0.1:36555
+Read port: 35147
+1667846517674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOaJDCO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36555/devtools/browser/b57d6392-9345-40ee-9470-b4ad870c2bb6
+1667846527738	geckodriver	INFO	Listening on 127.0.0.1:60097
+1667846527743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGAdS22"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667846528899	Marionette	INFO	Marionette enabled
+1667846528905	Marionette	INFO	Listening on port 40457
+Read port: 40457
+WebDriver BiDi listening on ws://127.0.0.1:42533
+1667846529056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGAdS22/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42533/devtools/browser/a267dc50-12e7-4664-8f82-6f37a3773de2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 829 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667846579575	Marionette	INFO	Stopped listening on port 35147
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667846588605	Marionette	INFO	Stopped listening on port 40457
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667846706128	geckodriver	INFO	Listening on 127.0.0.1:60597
+1667846706132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileb51eBl"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667846707244	Marionette	INFO	Marionette enabled
+1667846707248	Marionette	INFO	Listening on port 36117
+WebDriver BiDi listening on ws://127.0.0.1:50757
+Read port: 36117
+1667846707505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb51eBl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50757/devtools/browser/18fa11e4-00ae-4c90-8faf-9a36a4cf6a23
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 3500 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667847451874	geckodriver	INFO	Listening on 127.0.0.1:34561
+1667847451878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilel4gaog"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667847452935	Marionette	INFO	Marionette enabled
+1667847452939	Marionette	INFO	Listening on port 42033
+Read port: 42033
+WebDriver BiDi listening on ws://127.0.0.1:57663
+1667847453073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel4gaog/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57663/devtools/browser/bb4b67d1-5084-4bcd-854c-9d0b0b1ba063
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 3238 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667847483316	Marionette	INFO	Stopped listening on port 42033
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667847523099	geckodriver	INFO	Listening on 127.0.0.1:36059
+1667847523104	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3p4Zim"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667847524309	Marionette	INFO	Marionette enabled
+1667847524315	Marionette	INFO	Listening on port 40565
+Read port: 40565
+WebDriver BiDi listening on ws://127.0.0.1:51841
+1667847524489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3p4Zim/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51841/devtools/browser/b6f64093-b2af-450a-b044-c9b43e361002
+1667847527980	Marionette	INFO	Stopped listening on port 36117
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 4305 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 4244 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667847694617	geckodriver	INFO	Listening on 127.0.0.1:40855
+1667847694622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekelUtz"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667847695658	Marionette	INFO	Marionette enabled
+1667847695663	Marionette	INFO	Listening on port 33175
+Read port: 33175
+WebDriver BiDi listening on ws://127.0.0.1:53811
+1667847695794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekelUtz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53811/devtools/browser/8e1ef72f-b915-49c2-814c-bf6b2cd42b84
+1667847702270	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 1894 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667847760597	Marionette	INFO	Stopped listening on port 33175
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667847762830	Marionette	INFO	Stopped listening on port 40565
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667847764931	geckodriver	INFO	Listening on 127.0.0.1:33693
+1667847764935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevpRPcX"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667847766057	Marionette	INFO	Marionette enabled
+1667847766063	Marionette	INFO	Listening on port 40165
+Read port: 40165
+WebDriver BiDi listening on ws://127.0.0.1:40987
+1667847766204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevpRPcX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40987/devtools/browser/2efd5398-ebfa-4076-9c2c-4c273f0f5be4
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 3453 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667847896193	geckodriver	INFO	Listening on 127.0.0.1:56663
+1667847896197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWJ96LL"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667847897372	Marionette	INFO	Marionette enabled
+1667847897376	Marionette	INFO	Listening on port 45633
+Read port: 45633
+WebDriver BiDi listening on ws://127.0.0.1:57195
+1667847897507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWJ96LL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57195/devtools/browser/eba1a597-9992-4857-95b0-a7fa8fddf8b7
+1667847902045	Marionette	INFO	Stopped listening on port 45633
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667847910922	Marionette	INFO	Stopped listening on port 40165
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667847915226	geckodriver	INFO	Listening on 127.0.0.1:39779
+1667847915234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5RtCJx"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1667847916327	Marionette	INFO	Marionette enabled
+1667847916332	Marionette	INFO	Listening on port 40439
+Read port: 40439
+WebDriver BiDi listening on ws://127.0.0.1:37467
+1667847916457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5RtCJx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37467/devtools/browser/cd9698ce-fa13-44f6-a977-1ec179f8b497
+1667847920831	Marionette	INFO	Stopped listening on port 40439
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
